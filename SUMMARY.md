@@ -44,16 +44,23 @@
 ## compute
 
 * [EC2](compute/ec2/README.md)
+  * [Components](compute/ec2/components.md)
+  * [Instance Types](compute/ec2/instance-types.md)
   * [AMI](compute/ec2/ami/README.md)
     * [Copy AMI](compute/ec2/ami/copy-ami.md)
     * [Encryption](compute/ec2/ami/encryption.md)
     * [Time-based Copy](compute/ec2/ami/time-based-copy.md)
     * [Questions](compute/ec2/ami/questions.md)
+  * [Pricing](compute/ec2/pricing/README.md)
+    * [Spot Instances](compute/ec2/pricing/spot-instances.md)
+    * [Capacity Reservation](compute/ec2/pricing/capacity-reservation.md)
+    * [Dedicated Host/Instace](compute/ec2/pricing/dedicated-host-instace.md)
   * [Image Builder](compute/ec2/image-builder/README.md)
     * [AMI w/ Code Deploy](compute/ec2/image-builder/ami-w-code-deploy.md)
   * [Load Balancers](compute/ec2/load-balancers/README.md)
     * [Application Load Balancer](compute/ec2/load-balancers/application-load-balancer.md)
   * [Questions](compute/ec2/questions.md)
+  * [Exam Tips](compute/ec2/exam-tips.md)
 * [Lambda](compute/lambda/README.md)
   * [Lambda Creation](compute/lambda/lambda-creation.md)
   * [Considerations for Lambda](compute/lambda/considerations-for-lambda.md)
@@ -70,6 +77,14 @@
   * [RDS Proxy for Aurora](storage/aurora/rds-proxy-for-aurora.md)
 * [RDS](storage/rds/README.md)
   * [Questions](storage/rds/questions.md)
+* [EBS](storage/ebs/README.md)
+  * [gp2 vs gp3](storage/ebs/gp2-vs-gp3.md)
+  * [Block Express](storage/ebs/block-express.md)
+  * [Nitro-instances](storage/ebs/nitro-instances.md)
+  * [Multi-attach](storage/ebs/multi-attach.md)
+  * [Snapshots](storage/ebs/snapshots/README.md)
+    * [whys](storage/ebs/snapshots/whys.md)
+  * [Exam Tips](storage/ebs/exam-tips.md)
 
 ## NETWORK
 
