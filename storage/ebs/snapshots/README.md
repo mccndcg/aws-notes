@@ -10,9 +10,15 @@
 {% endstep %}
 
 {% step %}
-###
+### Lifecycle
 
+{% embed url="https://docs.aws.amazon.com/ebs/latest/userguide/ebs-snapshot-lifecycle.html" %}
+{% endstep %}
 
+{% step %}
+### Block public access
+
+{% embed url="https://docs.aws.amazon.com/ebs/latest/userguide/block-public-access-snapshots.html" %}
 {% endstep %}
 {% endstepper %}
 
@@ -23,6 +29,37 @@
 * Can be used to create new EBS volumes, copy across Regions, or share with other accounts.
 
 ***
+
+### Lifecycle
+
+```mermaid
+flowchart TD
+
+    A[Volume in Use] --> B[Take Snapshot]
+    B --> C{Is it First Snapshot?}
+    C -->|Yes| D[Full Snapshot Stored in S3]
+    C -->|No| E[Incremental Snapshot<br/>Only Changed Blocks Stored]
+
+    D --> F[Snapshot Available]
+    E --> F
+
+    F --> G[Use Snapshot to Create Volume/AMI]
+    F --> H[Copy Snapshot<br/>Cross-Region or Re-Encrypt]
+    F --> I[Share Snapshot<br/>Private/Public]
+    F --> J[Apply Lifecycle Policy<br/>DLM Automation]
+    F --> K[Enable Fast Snapshot Restore]
+
+    J --> F
+    K --> G
+
+    F --> L[Delete Snapshot]
+    L --> M{Recycle Bin Enabled?}
+    M -->|Yes| N[Snapshot in Recycle Bin<br/>Recoverable Until Retention Expires]
+    M -->|No| O[Snapshot Permanently Deleted<br/>But Blocks Used by Later Snapshots are Preserved]
+
+    N --> F
+
+```
 
 ### Key Characteristics
 

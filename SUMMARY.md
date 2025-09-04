@@ -83,7 +83,14 @@
   * [Nitro-instances](storage/ebs/nitro-instances.md)
   * [Multi-attach](storage/ebs/multi-attach.md)
   * [Snapshots](storage/ebs/snapshots/README.md)
+    * [Features](storage/ebs/snapshots/features.md)
+    * [Operations](storage/ebs/snapshots/operations.md)
     * [whys](storage/ebs/snapshots/whys.md)
+    * [Exam Tips](storage/ebs/snapshots/exam-tips.md)
+    * [Snapshot Lock](storage/ebs/snapshots/snapshot-lock.md)
+  * [Recycle Bin](storage/ebs/recycle-bin.md)
+  * [Amazon Data Lifecycle Manager works](storage/ebs/amazon-data-lifecycle-manager-works.md)
+  * [EBS-backed EMI](storage/ebs/ebs-backed-emi.md)
   * [Exam Tips](storage/ebs/exam-tips.md)
 
 ## NETWORK
