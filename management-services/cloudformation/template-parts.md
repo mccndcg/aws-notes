@@ -1,5 +1,15 @@
 # Template Parts
 
+## AWS Docs
+
+{% stepper %}
+{% step %}
+### Reference
+
+{% embed url="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/link-to-reference-guide.html" %}
+{% endstep %}
+{% endstepper %}
+
 A **CloudFormation JSON file** (also YAML, but JSON is just syntax) defines the infrastructure for a stack. It consists of several **core sections**, each with a specific purpose. Here’s a detailed breakdown:
 
 ***

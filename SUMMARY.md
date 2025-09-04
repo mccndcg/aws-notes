@@ -32,6 +32,13 @@
 * [Control Tower](management/control-tower/README.md)
   * [Questions](management/control-tower/questions.md)
 * [IAM Identity Center](management/iam-identity-center.md)
+* [Systems Manager](management/systems-manager/README.md)
+  * [Node Tools](management/systems-manager/node-tools.md)
+  * [Application/Operation Tools](management/systems-manager/application-operation-tools.md)
+  * [Change Mgmt. Tools](management/systems-manager/change-mgmt.-tools.md)
+  * [Installation & Permission](management/systems-manager/installation-and-permission.md)
+  * [Usage Example](management/systems-manager/usage-example.md)
+  * [Questions](management/systems-manager/questions.md)
 
 ## AWS SECURITY
 
@@ -58,6 +65,7 @@
   * [Image Builder](compute/ec2/image-builder/README.md)
     * [AMI w/ Code Deploy](compute/ec2/image-builder/ami-w-code-deploy.md)
   * [Load Balancers](compute/ec2/load-balancers/README.md)
+    * [Target Group](compute/ec2/load-balancers/target-group.md)
     * [Application Load Balancer](compute/ec2/load-balancers/application-load-balancer.md)
   * [Questions](compute/ec2/questions.md)
   * [Exam Tips](compute/ec2/exam-tips.md)
@@ -106,6 +114,7 @@
   * [Nested Stacks](management-services/cloudformation/nested-stacks.md)
   * [Monitoring](management-services/cloudformation/monitoring.md)
   * [Hooks](management-services/cloudformation/hooks.md)
+  * [Policies, scripts](management-services/cloudformation/policies-scripts.md)
   * [Screenshots](management-services/cloudformation/screenshots/README.md)
     * [Creation SS](management-services/cloudformation/screenshots/creation-ss.md)
     * [Stacks](management-services/cloudformation/screenshots/stacks.md)
